@@ -1,13 +1,13 @@
 package hello.core.beanfind;
 
-import hello.core.AppConfig;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-class  ApplicationContextInfoTest {
+import hello.core.AppConfig;
+
+public class ApplicationContextInfoTest {
 
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
@@ -34,4 +34,5 @@ class  ApplicationContextInfoTest {
             }
         }
     }
+    
 }
